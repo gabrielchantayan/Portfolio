@@ -1,0 +1,229 @@
+[
+	{
+		"title": {
+			"en": "System/Network Engineer",
+			"fr": "Ingénieur Réseau/Système",
+			"hy": "Սայման/Սյանաբարություն հաշիվ"
+		},
+		"company": {
+			"en": "Universal Epic Universe",
+			"fr": "Universal Epic Universe",
+			"hy": "Universal Epic Universe"
+		},
+		"location": {
+			"en": "Orlando, FL",
+			"fr": "Orlando, Floride, États-Unis",
+			"hy": "Օրլանդո, Ֆլորիդա, Ամերիկա"
+		},
+		"dates": ["2024-02", "current"],
+		"blurb": {
+			"en": "Worked on development, deployment, and maintenance of Parkwide Systems and the Ride Show Network at the new Universal Epic Universe in Orlando, Florida.",
+			"fr": "Travaillé sur le développement, le déploiement et la maintenance des Systèmes Parkwide et du Réseau Ride Show à le nouveau parc « Universal Epic Universe » à Orlando, Floride.",
+			"hy": "Աշխատել եմ Parkwide Systems-ի և Ride Show ցանցի մշակման, տեղակայման և պահպանման վրա Օռլանդոյում, Ֆլորիդայի նոր Universal Epic Universe-ում:"
+		},
+		"bullets": {
+			"en": [
+				"Deploying and administering Red Hat Enterprise Linux and Windows servers",
+				"Managing Active Directory and Kerberos",
+				"Creating scripts for automatic deployment and server management",
+				"Virtualization with VSphere, VMWare, Cisco IOx, and Docker",
+				"Creating and managing firewall rules with Palo Alto",
+				"Managing Cisco and Arista switches",
+				"Creating backups of virtual machines and network switch configurations",
+				"Handling cable schedules, IP schemas, and creating trackers",
+				"Troubleshooting network and systems issues"
+			],
+			"fr": [
+				"Déploiement et administration des serveurs Red Hat Enterprise Linux et Windows",
+				"Gestion de l'Active Directory et de Kerberos",
+				"Création de scripts pour le déploiement automatique et la gestion des serveurs",
+				"Virtualisation avec VSphere, VMWare, Cisco IOx et Docker",
+				"Création et gestion des règles pare-feu avec Palo Alto",
+				"Gestion des commutateurs Cisco et Arista",
+				"Création de sauvegardes des machines virtuelles et des configurations de commutateurs réseau",
+				"Gestion des plannings de câbles, des schémas IP et création de suivi",
+				"Dépannage des problèmes réseau et systèmes"
+			],
+			"hy": [
+				"Red Hat Enterprise Linux և Windows սերվերների տեղակայում և կառավարում",
+				"Active Directory-ի և Kerberos-ի կառավարում",
+				"Գրանցելու սկրիպտներ ինքնաշխատ տեղակայման եւ սերվերների կառավարման համար",
+				"Վիրտուալային մշակում VSphere, VMWare, Cisco IOx եւ Docker-ով",
+				"Palo Alto-ի ֆայերվուլների ստեղծում և կառավարում",
+				"Cisco եւ Arista համարով կապակցիչների կառավարում",
+				"Վիրտուալ մեքենաների և ցանցի շարժիցների արձագանքների ստեղծում",
+				"Կապակցումների հերթականության, IP շեմաների հետ աշխատում եւ հետևիչների ստեղծում",
+				"Ցանցի եւ համակարգչի խնդիրների լուծում"
+			]
+		},
+		"skills": [
+			"ciscoSwitches",
+			"aristaSwitches",
+			"docker",
+			"iox",
+			"firewall",
+			"rhel",
+			"windowsServer",
+			"paloAlto",
+			"vmware",
+			"esxi",
+			"activeDirectory"
+		]
+	},
+
+	{
+		"title": {
+			"en": "System Administrator",
+			"fr": "Administrateur système",
+			"hy": "Սայման հաշիվ"
+		},
+		"company": {
+			"en": "Buena Vista Companies",
+			"fr": "Buena Vista Companies",
+			"hy": "Բունակա Վիտայել Ընկերություններ"
+		},
+		"location": {
+			"en": "Orlando, FL",
+			"fr": "Orlando, Floride, États-Unis",
+			"hy": "Օրլանդո, Ֆլորիդա, Ամերիկա"
+		},
+		"dates": ["2022-10", "2024-02"],
+		"blurb": {
+			"en": "Functioned as the entire IT department for Buena Vista Companies.",
+			"fr": "Fonctionne comme l'ensemble du département IT de Buena Vista Companies.",
+			"hy": "Գործում է որպես ամբողջ ՏՏ բաժին Բունակա Վիտայել Ավելիներ Ընկերությունների համար"
+		},
+		"bullets": {
+			"en": [
+				"Handled all IT operations",
+				"Coordinated multiple external parties in technical operations",
+				"Created training documents and handled technical training",
+				"Performed quality assurance testing",
+				"In charge of SMS and phone compliance",
+				"Developed programs to automate certain scheduled tasks",
+				"Developed internal tools",
+				"In charge of updating, creating, and maintaining the company's multiple sales and rental websites",
+				"Oversaw the implementation of a new soft phone system",
+				"Handled social media and graphic design for Instagram, Facebook, and emails",
+				"Performed inventory of needs relating to IT",
+				"Handled and streamlined multiple reference documents used daily by agents in the Call Center",
+				"Ensured all software and training materials were up-to-date"
+			],
+			"fr": [
+				"Gestion des opérations IT",
+				"Coordonnation de plusieurs parties externes dans les opérations techniques",
+				"Gestion des documents d'entrainement et des entraînements techniques",
+				"Traitement de tests de qualité",
+				"Gestion des SMS et de la conformité téléphonique",
+				"Développement de programmes pour automatiser certaines tâches planifiées",
+				"Développement d'outils internes",
+				"Gestion de la mise à jour, de la création et de la maintenance de plusieurs sites web de ventes et de location",
+				"Gestion de l'implémentation d'un nouveau système de téléphonie soft",
+				"Gestion des médias sociaux et du design graphique pour Instagram, Facebook, et les emails",
+				"Gestion des inventaires de besoins relatifs à l'IT",
+				"Gestion des documents de référence et des entraînements relatifs aux agents de l'appelation",
+				"Assurer que tous les logiciels et les documents de formation sont mis à jour"
+			],
+			"hy": [
+				"Կատարել է ՏՏ բոլոր գործառնությունները",
+				"Տեխնիկական գործողություններում բազմաթիվ արտաքին կողմերի համակարգում",
+				"Ստեղծվել է ուսումնական փաստաթղթեր և վարվել տեխնիկական ուսուցում",
+				"Կատարված որակի ապահովման փորձարկում",
+				"Պատասխանատու է SMS-ի և հեռախոսի համապատասխանության համար",
+				"Մշակված ծրագրեր՝ որոշակի պլանավորված առաջադրանքների ավտոմատացման համար",
+				"Մշակված ներքին գործիքներ",
+				"Ընկերության վաճառքի և վարձակալության բազմաթիվ կայքերի թարմացման, ստեղծման և պահպանման համար պատասխանատու",
+				"Վերահսկել է նոր փափուկ հեռախոսային համակարգի ներդրումը",
+				"Սոցիալական մեդիա և գրաֆիկական դիզայն Instagram-ի, Facebook-ի և էլփոստի համար",
+				"ՏՏ-ին առնչվող կարիքների գույքագրում",
+				"Կատարված և պարզեցված բազմաթիվ տեղեկատու փաստաթղթեր, որոնք ամեն օր օգտագործվում են Զանգերի կենտրոնում գործակալների կողմից",
+				"Համոզվել է, որ բոլոր ծրագրային ապահովումը և ուսումնական նյութերը արդիական են"
+			]
+		},
+		"skills": [
+			"js",
+			"node",
+			"php",
+			"itOPs",
+			"techCoord",
+			"training",
+			"qa",
+			"complianceMgmt",
+			"graphicDesign",
+			"webDev",
+			"sysImpl",
+			"socialMedia",
+			"inventoryMgmt",
+			"documentation",
+			"softwareMaintenance",
+			"linux",
+			"windows",
+			"ubuntuServer",
+			"windowsServer",
+			"activeDirectory",
+			"firewall",
+			"pfsense",
+			"restAPI",
+			"googleAnalytics",
+			"googleAds",
+			"shopify"
+		]
+	},
+
+	{
+		"title": {
+			"en": "Team Lead",
+			"fr": "Chef d'équipe",
+			"hy": "Տեսական հաշիվ"
+		},
+		"company": {
+			"en": "Code Ninjas",
+			"fr": "Code Ninjas",
+			"hy": "Code Ninjas"
+		},
+		"location": {
+			"en": "Orlando, FL",
+			"fr": "Orlando, Floride, États-Unis",
+			"hy": "Օրլանդո, Ֆլորիդա, Ամերիկա"
+		},
+		"dates": ["2022-02", "2022-10"],
+
+		"bullets": {
+			"en": [
+				"Server and Network Management",
+				"Lead my team and provided insights on how to improve operations",
+				"Automation and program installation",
+				"JavaScript, Java, and C# development",
+				"Provided technical support"
+			],
+			"fr": [
+				"Gestion des serveurs et réseaux",
+				"Dirigé mon équipe et fourni des idées pour améliorer les opérations",
+				"Automatisation et installation de programmes",
+				"Développement en JavaScript, Java et C#",
+				"Fourni un support technique"
+			],
+			"hy": [
+				"Սերվերների և ցանցային կառավարում",
+				"Իսկապես առաջարկեցի իմ թիմը և տրեց առաջարկներ գործընթացների բարդությունները բարձրացնելու մասին",
+				"Ինքնաշխատեցի և ծառայումների տեղակայման ավտոմատացումը",
+				"JavaScript, Java և C# ծրագրային լեզվերով զարգացում",
+				"Տեղադրում եւ ծանոթագրումից տեղադրում"
+			]
+		},
+		"skills": [
+			"js",
+			"java",
+			"csharp",
+			"itOPs",
+			"techCoord",
+			"training",
+			"webDev",
+			"sysImpl",
+			"documentation",
+			"softwareMaintenance",
+			"windows",
+			"ubuntuServer"
+		]
+	}
+]

@@ -1,0 +1,436 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "InterVariable", sans-serif;
+    font-optical-sizing: auto;
+  }
+}
+@font-face {
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("fonts/InterVariable.woff2") format("woff2");
+}
+@font-face {
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("fonts/InterVariable-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: GeistMono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("fonts/GeistMonoVF.woff2") format("woff2");
+}
+@font-face {
+  font-family: Hack;
+  font-style: normal;
+  src: url("fonts/Hack-Regular.ttf") format("truetype");
+}
+#greet {
+  margin-top: -2.5em;
+  padding-top: 1em;
+}
+@media (max-width: 650px) {
+  #greet {
+    text-align: center;
+  }
+}
+
+#experience,
+#projects,
+#contact {
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  padding: 1em 0em 5em 5em;
+}
+@media (max-width: 650px) {
+  #experience,
+  #projects,
+  #contact {
+    padding: 1em 0em 5em 0.5rem;
+  }
+}
+#experience h1,
+#projects h1,
+#contact h1 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "InterVariable", sans-serif;
+  margin-bottom: 0;
+  word-wrap: break-word;
+}
+@media (max-width: 650px) {
+  #experience h1,
+  #projects h1,
+  #contact h1 {
+    font-size: 2rem;
+    max-width: 80vw;
+  }
+}
+#experience h1.title,
+#projects h1.title,
+#contact h1.title {
+  font-size: 5em;
+  font-weight: 900;
+  margin: 0.5em 0em 0em 0.7em;
+  font-family: "GeistMono", "Hack", monospace;
+}
+@media (max-width: 650px) {
+  #experience h1.title,
+  #projects h1.title,
+  #contact h1.title {
+    font-size: 3em;
+  }
+}
+
+body {
+  background-color: #101012;
+  white-space: pre-line;
+}
+
+#greet {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-165deg, #202022, #101012);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#greet .text {
+  text-align: left;
+  font-family: "GeistMono", "Hack", monospace;
+  color: #dedede;
+  padding-bottom: 10vh;
+}
+#greet .text .intro {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0.2em;
+}
+@media (max-width: 650px) {
+  #greet .text .intro {
+    font-size: 1.4rem;
+  }
+}
+#greet #name {
+  font-size: 6.5rem;
+  margin: 0;
+  font-weight: 700;
+  color: #000;
+  font-family: "InterVariable", sans-serif;
+  background: linear-gradient(#35dd7b, #356f3f);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@media (max-width: 650px) {
+  #greet #name {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 650px) {
+  #greet #name,
+  #greet .text .intro {
+    margin-left: 10vw;
+  }
+}
+#greet #langSelect {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 95vh;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0.2em;
+  color: rgba(240, 240, 240, 0.4);
+  cursor: pointer;
+}
+@media (max-width: 650px) {
+  #greet #langSelect {
+    top: 90vh;
+  }
+}
+#greet #langSelect div {
+  margin: 0 0.5em;
+}
+#greet #langSelect .selected {
+  font-weight: 700;
+  color: rgba(240, 240, 240, 0.6);
+}
+
+#experience {
+  background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+#experience h1 {
+  background: linear-gradient(#404048, #101012);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#experience h2 {
+  font-family: "InterVariable", sans-serif;
+  font-style: italic;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 650px) {
+  #experience h2 {
+    font-size: 1rem;
+  }
+}
+#experience p,
+#experience li {
+  font-family: "GeistMono", "Hack", monospace;
+  font-size: 1.1rem;
+  max-width: 70vw;
+}
+@media (max-width: 650px) {
+  #experience p,
+  #experience li {
+    font-size: 0.9rem;
+  }
+}
+#experience ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+@media (max-width: 650px) {
+  #experience ul {
+    padding-left: 0.5rem;
+  }
+}
+#experience .skill {
+  border: #4a0835 solid 1px;
+  background: linear-gradient(15deg, rgba(249, 151, 203, 0.652), rgba(255, 0, 153, 0.662));
+  color: #4a0835;
+}
+
+#projects {
+  background: linear-gradient(-165deg, #202022, #101012);
+}
+#projects h1 {
+  background: linear-gradient(#e078ef, #a934cd);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#projects h2 {
+  font-family: "InterVariable", sans-serif;
+  font-size: 1rem;
+  color: rgba(240, 240, 240, 0.4);
+  font-weight: 600;
+  margin: 0em 0em 0.9em 0.2em;
+}
+#projects p {
+  color: #ddd;
+  font-family: "GeistMono", "Hack", monospace;
+  font-size: 1.25rem;
+  line-height: 110%;
+  margin-top: 0;
+  margin-left: 0.2em;
+  max-width: 70vw;
+}
+@media (max-width: 650px) {
+  #projects p {
+    font-size: 1rem;
+  }
+}
+#projects .skill {
+  border: #e078ef solid 1px;
+  background: linear-gradient(15deg, rgba(46, 28, 46, 0.652), rgba(247, 0, 255, 0.284));
+  color: #e078ef;
+  margin-right: 0.4em;
+}
+
+#contact {
+  min-height: 85vh;
+  background: linear-gradient(rgb(13, 27, 24), rgba(25, 25, 186, 0));
+}
+#contact ul {
+  list-style-type: none;
+  margin: 0 0 0 4.1em;
+  padding: 0;
+}
+#contact ul li {
+  margin-bottom: 0.5em;
+}
+#contact h1 {
+  background: linear-gradient(#2df64b, #246a49);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#contact h2 {
+  font-family: "InterVariable", sans-serif;
+  font-size: 1rem;
+  color: rgba(240, 240, 240, 0.4);
+  font-weight: 600;
+  margin: 0em 0em 0.9em 0.2em;
+}
+#contact p {
+  margin-top: 0;
+  margin-left: 3.4em;
+}
+#contact p,
+#contact a,
+#contact li {
+  color: #ddd;
+  font-family: "GeistMono", "Hack", monospace;
+  font-size: 1.25rem;
+  line-height: 110%;
+  max-width: 65vw;
+}
+@media (max-width: 650px) {
+  #contact p,
+  #contact a,
+  #contact li {
+    max-width: 80vw;
+    font-size: 1em;
+  }
+}
+#contact .skillContainer {
+  margin-left: 4em;
+}
+@media (max-width: 650px) {
+  #contact .skillContainer {
+    margin-left: 2em;
+  }
+}
+#contact .skill {
+  border: #e078ef solid 1px;
+  background: linear-gradient(15deg, rgba(46, 28, 46, 0.652), rgba(247, 0, 255, 0.284));
+  color: #e078ef;
+  margin-right: 0.4em;
+}
+#contact .imgFloat {
+  margin-left: 4em;
+  display: flex;
+}
+#contact .imgFloat p {
+  margin-left: 2em;
+  max-width: 55vw;
+}
+@media (max-width: 650px) {
+  #contact .imgFloat p {
+    margin-left: 0em;
+    max-width: 80vw;
+  }
+}
+@media (max-width: 650px) {
+  #contact .imgFloat {
+    margin-left: 2em;
+    max-width: 80vw;
+  }
+}
+#contact .imgFloat .picOfMe {
+  width: 12.5em;
+  height: 19em;
+}
+@media (max-width: 650px) {
+  #contact .imgFloat .picOfMe {
+    display: none;
+  }
+}
+
+.job,
+.project {
+  margin-left: 4em;
+}
+@media (max-width: 650px) {
+  .job,
+  .project {
+    margin-left: 2em;
+    max-width: 80vw;
+  }
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "InterVariable", sans-serif;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #222;
+  text-align: center;
+  align-content: center;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #ddd;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: "GeistMono", "Hack", monospace;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70vw;
+  margin-top: 0.6em;
+  margin-bottom: 2em;
+}
+.skillContainer .skill,
+.skillContainer .link {
+  margin: 0.2em;
+  padding: 0.4em 0.8em;
+  font-weight: 700;
+  font-family: "GeistMono", "Hack", monospace;
+  border-radius: 1em;
+}
+@media (max-width: 650px) {
+  .skillContainer .skill,
+  .skillContainer .link {
+    font-size: 0.8rem;
+  }
+}
+
+.link {
+  border: #52e53b solid 1px;
+  background: linear-gradient(15deg, rgba(28, 46, 30, 0.652), rgba(0, 255, 34, 0.284));
+  color: #52e53b;
+  margin-right: 0.4em;
+}
+.link:hover {
+  background: linear-gradient(15deg, rgba(40, 66, 43, 0.652), rgba(0, 255, 34, 0.516));
+  color: #9afe8a;
+  border: #9afe8a solid 1px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,125 @@
+[
+	{
+		"name": {
+			"en": "Anahit"
+		},
+		"description": {
+			"en": "A homelab I have been working on for the past few years. It hosts a network-based backup solution, photo sharing software with AI facial categorization, network-wide ad blocking, a media server/streaming service replacement, video game servers, and more. It currently supports the activities of me, my roommates, my friends, and my family.\n\n2x Intel Xeon E5-2690 CPU, SuperMicro X9DRD-EF MOBO, 64GB 1066 MHz DDR3L, 36TB storage (24TB usable)",
+			"fr": "Un homelab que j'ai commence par le travail depuis quelques ans. Il contient une solution de sauvegarde reseau, un logiciel de partage de photos, un anti-ad, un serveur de stream, un serveur de jeu video, et encore d'autres. Il supporte des activiteés de moi, de mes colocs, de mes amis, et de ma famille.\n\n2x Intel Xeon E5-2690 CPU, SuperMicro X9DRD-EF MOBO, 64GB 1066 MHz DDR3L, 36TB stockage (24TB utilisable)",
+			"hy": "Տնային լաբորատորիա, որի վրա աշխատել եմ վերջին մի քանի տարիների ընթացքում: Այն հյուրընկալում է ցանցի վրա հիմնված պահուստավորման լուծում, լուսանկարների փոխանակման ծրագրակազմ՝ AI դեմքերի դասակարգմամբ, գովազդի արգելափակում ամբողջ ցանցով, մեդիա սերվերի/հոսքային ծառայության փոխարինում, տեսախաղերի սերվերներ և այլն: Այն ներկայումս աջակցում է իմ, իմ սենյակակիցների, իմ ընկերների և իմ ընտանիքի գործունեությունը:\n\n2x Intel Xeon E5-2690 CPU, SuperMicro X9DRD-EF MOBO, 64GB 1066 MHz DDR3L, 36TB հիշողություն (24TB օգտագործելի)"
+		},
+		"technologies": [
+			"js",
+			"node",
+			"python",
+			"linux",
+			"proxmox",
+			"ubuntuServer",
+			"docker",
+			"automation",
+			"piHole",
+			"nas",
+			"sysImpl",
+			"softwareMaintenance",
+			"raid",
+			"zfs",
+			"networkMapping",
+			"virtualization"
+		],
+		"dates": ["2020", "current"]
+	},
+
+	{
+		"name": {
+			"en": "SpotArchive",
+			"hy": "ՍպոտԱրխիվ"
+		},
+		"description": {
+			"en": "Tired of losing cool songs from your Discover Weekly? Don't want to miss out on your Daylists? SpotArchive will archive your Discover Weekly and your Daylists so you never have to miss a song.\n\nMusic is a large part of my day, but due to the amount I listen to it's hard to find new music I enjoy. I created SpotArchive to save my Daylists and Discover Weekly so I can go back, search, and find new songs I would have missed out on.",
+			"fr": "Marre de perdre les chansons sympas de vos Découvertes de la semaine ? Vous ne voulez pas manquer vos Daylists ? SpotArchive archivera vos Découvertes de la semaine et vos Daylists afin que vous ne manquiez jamais une chanson.\n\nLa musique occupe une grande partie de ma journée, mais en raison de la quantité que j'écoute, il est difficile de trouver de nouvelles musiques que j'apprécie. J'ai créé SpotArchive pour sauvegarder mes Daylists et Découvertes de la semaine afin de pouvoir revenir en arrière, rechercher et trouver de nouvelles chansons que j'aurais manquées.",
+			"hy": "Հոգնե՞լ եք ձեր Discover Weekly-ի զով երգերը կորցնելուց: Չե՞ք ուզում բաց թողնել ձեր Daylist-ները: ՍպոտԱրխիվը արխիվացնելու է ձեր Discover Weekly ամսագիրը և ձեր Daylist-ները, որպեսզի երբեք երգ բաց չթողնեք:\n\nԵրաժշտությունը իմ օրվա մեծ մասն է, բայց քանի որ լսում եմ, դժվար է գտնել նոր երաժշտություն, որը ես սիրում եմ: Ես ստեղծել եմ ՍպոտԱրխիվը, որպեսզի պահպանեմ իմ Daylists-ը և Discover Weekly-ն, որպեսզի կարողանամ վերադառնալ, որոնել և գտնել նոր երգեր, որոնք ես բաց կթողնեի:"
+		},
+		"technologies": ["react", "node", "restAPI", "sql", "docker", "spotify"],
+		"links": [["viewOnGithub", "https://github.com/gabrielchantayan/spotarchive"]],
+		"dates": ["2024-06", "current"]
+	},
+
+	{
+		"name": {
+			"en": "Toun II",
+			"hy": "Տուն II"
+		},
+		"description": {
+			"en": "A total rewrite of my 2022 project, Toun. Toun II is a widley customizable startpage for your homelab.\n\nThe rewrite streamlined many functions, sped up dynamic page generation, as well as expanded user customization options.",
+			"fr": "Une réécriture totale de mon projet de 2022, Toun. Toun II est une page de démarrage largement personnalisable pour votre homelab.\n\nLa réécriture a rationalisé de nombreuses fonctions, accéléré la génération de pages dynamiques, ainsi que des options de personnalisation utilisateur étendues.",
+			"hy": "Իմ 2022 թվականի նախագծի՝ Տուն-ի ամբողջական վերաշարադրումը: Տուն II-ը լայնորեն հարմարեցվող մեկնարկ է ձեր տնային լաբորատորիայի համար:\n\nՎերագրումը պարզեցրեց բազմաթիվ գործառույթներ, արագացրեց դինամիկ էջերի ստեղծումը, ինչպես նաև ընդլայնեց օգտատերերի հարմարեցման ընտրանքները:"
+		},
+		"technologies": ["react", "node", "webDev", "docker"],
+		"links": [["viewOnGithub", "https://github.com/gabrielchantayan/toun-2"]],
+		"dates": ["2024-05", "current"]
+	},
+
+	{
+		"name": {
+			"en": "Buena Vista Internal Tools",
+			"fr": "Outils interne de Buena Vista"
+		},
+		"description": {
+			"en": "Developed a custom solution for internal tools during my time at Buena Vista Companies. Automated multiple rental reports pulling from internal data and external advertising analytics. \n\nCreated a dynamic electronic system for call center agents to input their commissions and for management to track statistics and generate payroll based on commissions.\n\nTracked inventory and generated reports based on status (in warehouse, out on field, missing, ect) and based on date/price purchased.\n\nStreamlined warehouse equipment pickup by eliminating paperwork and digitizing the process. Call Center agents input pickup information and customers sign the generated contract.",
+			"fr": "Développé une solution personnalisée pour les outils internes dans mon temps de travail chez Buena Vista Companies. Automatisé plusieurs rapports de location en tirant les données internes et de l'analyse des publicités externes.\n\nCréé un système électronique dynamique pour les agents du centre d'appel à saisir leurs commissions et pour la gestion à suivre les statistiques et générer les paies selon les commissions.\n\nSuivi des stocks et généré des rapports en fonction de l'état (dans le dépôt, en campagne, manquant, etc.) et en fonction de la date/prix d'achat.\n\nOptimisé le processus de prise en charge des équipements de dépôt en éliminant les pièces justificatives papier et en numérisant le processus. Les agents du centre d'appel saisissent les informations de prise en charge des clients et les clients signent le contrat généré.",
+			"hy": "Մշակել եմ անհատական ​​լուծում ներքին գործիքների համար Buena Vista ընկերություններում աշխատելու ընթացքում: Ավտոմատացված բազմակի վարձակալության հաշվետվություններ, որոնք բխում են ներքին տվյալներից և արտաքին գովազդի վերլուծությունից: \n\nՍտեղծել է դինամիկ էլեկտրոնային համակարգ զանգերի կենտրոնի գործակալների համար՝ մուտքագրելու իրենց միջնորդավճարները, իսկ ղեկավարությունը՝ հետևելու վիճակագրությանը և գեներացնում է աշխատավարձը՝ հիմնված միջնորդավճարների վրա:\n\nՀետևել է գույքագրմանը և ստեղծած հաշվետվություններին՝ հիմնված կարգավիճակի վրա (պահեստում, դաշտում, բացակայում է, և այլն) և հիմնված գնման ամսաթվի/գնի վրա:\n\nՊահեստի սարքավորումների պարզեցված հավաքում` վերացնելով փաստաթղթերը և թվայնացնելով գործընթացը: Զանգերի կենտրոնի գործակալները մուտքագրում են պիկապ տեղեկատվությունը և հաճախորդները ստորագրում են ստեղծված պայմանագիրը:"
+		},
+
+		"technologies": ["react", "node", "mongodb", "email", "automation", "inventoryMgmt", "analytics", "reporting"],
+		"dates": ["2022-10", "2024-02"]
+	},
+
+	{
+		"name": {
+			"en": "Toun",
+			"hy": "Տուն"
+		},
+		"description": {
+			"en": "Toun is a customizable startpage for your homelab.",
+			"fr": "Toun est une page de démarrage personnalisable pour votre homelab.",
+			"hy": "Տուն II-ը լայնորեն հարմարեցվող մեկնարկ է ձեր տնային լաբորատորիայի համար:"
+		},
+		"technologies": ["react", "node", "webDev", "docker"],
+		"links": [["viewOnGithub", "https://github.com/gabrielchantayan/toun"]],
+		"dates": ["2022-05", "2022-06"]
+	},
+
+	{
+		"name": {
+			"en": "What is Gabe listening to?",
+			"fr": "Qu'est-ce que Gabe est en train de lisser?",
+			"hy": "Ի՞նչ Գաբրիելն ա լսում։"
+		},
+		"description": {
+			"en": "A Twitter bot that polls my Spotify activity and Tweets out the song, album, artist, and (if available) playlist that I'm listening to.\n\nDue to changes in Twitter's API, this bot is no longer operational.",
+			"fr": "Un bot Twitter qui envoie des tweets de la chanson, de l'album, de l'artiste que j'ai ecoutee sur Spotify.\n\nEn raison d'un changement dans l'API de Twitter, ce bot est maintenant inutilisable.",
+			"hy": "Twitter-ի բոտ, որը հարցումներ է անցկացնում իմ Spotify-ի գործունեության մասին և Թվիթերում հրապարակում է երգը, ալբոմը, կատարողը և (եթե առկա է) երգացանկը, որը ես լսում եմ:\n\nTwitter-ի API-ում փոփոխությունների պատճառով այս բոտն այլևս չի գործում:"
+		},
+		"technologies": ["python", "spotify", "twitter", "bot", "automation"],
+		"links": [
+			["viewOnTwitter", "https://twitter.com/gabeislistening"],
+			["viewOnGithub", "https://github.com/gabrielchantayan/what-am-i-listening-to"]
+		],
+		"dates": ["2021", "2023"]
+	},
+
+	{
+		"name": {
+			"en": "Minecraft Mod/Plugin Development",
+			"fr": "Developpement de mods/plugins pour Minecraft",
+			"hy": "Minecraft Mod/Plugin-ի կարգավիճակի առաջադրանքների կառավարում"
+		},
+		"description": {
+			"en": "Developed several modifications and server plugins for Minecraft over the years.\n\nSadly, all these works have been lost to the sands of time.",
+			"fr": "Develope des modifications et des plugins de serveur pour Minecraft.\n\nMalheureusement, toutes ces oeuvres ont ete perdues au sable de l'histoire.",
+			"hy": "Տարիների ընթացքում Minecraft-ի համար մշակել է մի քանի փոփոխություններ և սերվերային հավելումներ։\n\nՑավոք սրտի, այս բոլոր աշխատանքները կորել են ժամանակի ավազները։"
+		},
+		"technologies": ["java", "collabCoding"],
+		"dates": ["2014", "2020"]
+	}
+]

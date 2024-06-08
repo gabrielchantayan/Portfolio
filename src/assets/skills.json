@@ -1,0 +1,251 @@
+{
+	"js": {
+		"en": "JavaScript"
+	},
+	"node": {
+		"en": "Node.js"
+	},
+	"python": {
+		"en": "Python"
+	},
+	"react": {
+		"en": "React"
+	},
+	"vue.js": {
+		"en": "Vue.js"
+	},
+	"cpp": {
+		"en": "C++"
+	},
+	"csharp": {
+		"en": "C#"
+	},
+	"teamLeadership": {
+		"en": "Team Leadership",
+		"fr": "Gestion de l'équipe",
+		"hy": "Խումբ սոցիալական կառավարում"
+	},
+	"ciscoSwitches": {
+		"en": "Cisco Network Switches",
+		"fr": "Commutateurs réseau Cisco",
+		"hy": "Cisco համաձայնագիրներ"
+	},
+	"linux": {
+		"en": "Linux",
+		"hy": "Լինոկս"
+	},
+	"shopify": {
+		"en": "Shopify"
+	},
+	"php": {
+		"en": "PHP"
+	},
+	"windows": {
+		"en": "Windows"
+	},
+	"activeDirectory": {
+		"en": "Active Directory"
+	},
+	"itOPs": {
+		"en": "IT Operations",
+		"fr": "Opérations IT",
+		"hy": "IT գործողություններ"
+	},
+	"techCoord": {
+		"en": "Technical Coordination",
+		"fr": "Coordination technique",
+		"hy": "Տեխնիկական համաձայնագիր"
+	},
+	"training": {
+		"en": "Training",
+		"fr": "Formation",
+		"hy": "Մարզվել"
+	},
+	"qa": {
+		"en": "Quality Assurance",
+		"fr": "Assurance qualité",
+		"hy": "Ընդունման վարաբերություն"
+	},
+	"complianceMgmt": {
+		"en": "Compliance Management",
+		"fr": "Gestion de la conformité",
+		"hy": "Համապատասխանության կառավարում"
+	},
+	"graphicDesign": {
+		"en": "Graphic Design",
+		"fr": "Design graphique",
+		"hy": "Գրաֆիկայի դիզայն"
+	},
+	"webDev": {
+		"en": "Website Development",
+		"fr": "Développement web",
+		"hy": "Կայքի զարգացում"
+	},
+	"sysImpl": {
+		"en": "System Implementation",
+		"fr": "Implémentation système",
+		"hy": "Համակարգչային իմպլեմենտացում"
+	},
+	"socialMedia": {
+		"en": "Social Media Management",
+		"fr": "Gestion des médias sociaux",
+		"hy": "Սոցիալական մեդիայի կառավարում"
+	},
+	"inventoryMgmt": {
+		"en": "Inventory Management",
+		"fr": "Gestion des stocks",
+		"hy": "Գույքագրումի կառավարում"
+	},
+	"documentation": {
+		"en": "Documentation",
+		"fr": "Documentation",
+		"hy": "Փաստաթղթավորում"
+	},
+	"softwareMaintenance": {
+		"en": "Software Maintenance",
+		"fr": "Maintenance logicielle",
+		"hy": "Ծրագիրը պահպանում"
+	},
+
+	"paloAlto": {
+		"en": "Palo Alto"
+	},
+	"firewall": {
+		"en": "Firewalls"
+	},
+	"rhel": {
+		"en": "Red Hat Enterprise Linux"
+	},
+	"aruba": {
+		"en": "Aruba Access Points",
+		"fr": "Points d'accès Aruba",
+		"hy": "Արուբա մատչելիություններ"
+	},
+	"aristaSwitches": {
+		"en": "Arista Network Switches",
+		"fr": "Commutateurs réseau Arista",
+		"hy": "Արիստայի ցանցային փոխանակչներ"
+	},
+	"ansible": {
+		"en": "Ansible"
+	},
+	"esxi": {
+		"en": "ESXI"
+	},
+	"vmware": {
+		"en": "VMware"
+	},
+	"rdp": {
+		"en": "Windows RDP",
+		"fr": "RDP Windows"
+	},
+	"docker": {
+		"en": "Docker"
+	},
+	"restAPI": {
+		"en": "REST APIs",
+		"fr": "APIs REST"
+	},
+	"googleAnalytics": {
+		"en": "Google Analytics",
+		"fr": "Analytique Google",
+		"hy": "Google Վերլուծություն"
+	},
+	"googleAds": {
+		"en": "Google Ads",
+		"fr": "Publicité Google",
+		"hy": "Google Գովազդներ"
+	},
+	"ubuntuServer": {
+		"en": "Ubuntu Server",
+		"fr": "Serveur Ubuntu",
+		"hy": "Ubuntu Սերվեր"
+	},
+	"windowsServer": {
+		"en": "Windows Server",
+		"fr": "Serveur Windows",
+		"hy": "Windows Սերվեր"
+	},
+	"pfsense": {
+		"en": "pfSense"
+	},
+	"sql": {
+		"en": "SQL"
+	},
+	"mongodb": {
+		"en": "MongoDB"
+	},
+	"databases": {
+		"en": "Databases",
+		"fr": "Bases de données"
+	},
+	"spotify": {
+		"en": "Spotify"
+	},
+	"analytics": {
+		"en": "Analytics",
+		"fr": "Analytique",
+		"hy": "Վերլուծություն"
+	},
+	"reporting": {
+		"en": "Reporting",
+		"fr": "Rapportage",
+		"hy": "Հաշվետվություն"
+	},
+	"email": {
+		"en": "Email",
+		"fr": "Email",
+		"hy": "Էլ. փոստ"
+	},
+	"automation": {
+		"en": "Automation",
+		"fr": "Automatisation",
+		"hy": "Ավտոմատացում"
+	},
+	"iox": {
+		"en": "Cisco iOX"
+	},
+	"java": {
+		"en": "Java"
+	},
+	"collabCoding": {
+		"en": "Collaborative Coding",
+		"fr": "Codage collaboratif",
+		"hy": "Միջին կառավարում"
+	},
+	"piHole": {
+		"en": "PiHole"
+	},
+	"proxmox": {
+		"en": "Proxmox"
+	},
+	"nas": {
+		"en": "Network Attached Storage",
+		"fr": "Stockage attache au reseau",
+		"hy": "Հայտարարական հանձնելու հաշվետություն"
+	},
+	"virtualization": {
+		"en": "Virtualization",
+		"fr": "Virtuelle",
+		"hy": "Վիքիպեդիա"
+	},
+	"networkMapping": {
+		"en": "Network Mapping",
+		"fr": "Cartographie reseau",
+		"hy": "Հանձնելու հաշվետություն"
+	},
+	"zfs": {
+		"en": "ZFS"
+	},
+	"raid": {
+		"en": "RAID"
+	},
+	"bot": {
+		"en": "Bot",
+		"fr": "Bot",
+		"hy": "Բոտ"
+	},
+	"twitter": {
+		"en": "Twitter"
+	}
+}
