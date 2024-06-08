@@ -35,7 +35,6 @@
   src: url("fonts/Hack-Regular.ttf") format("truetype");
 }
 #greet {
-  margin-top: -2.5em;
   padding-top: 1em;
 }
 @media (max-width: 650px) {
@@ -258,7 +257,6 @@ body {
 }
 
 #contact {
-  min-height: 85vh;
   background: linear-gradient(rgb(13, 27, 24), rgba(25, 25, 186, 0));
 }
 #contact ul {

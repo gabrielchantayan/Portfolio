@@ -51,7 +51,7 @@ $monoFont: 'GeistMono', 'Hack', monospace;
 $sansFont: 'InterVariable', sans-serif;
 
 #greet {
-	margin-top: -2.5em;
+	// margin-top: -2.5em;
 	padding-top: 1em;
 
 	@media (max-width: $phone-breakpoint) {
@@ -271,7 +271,7 @@ body {
 }
 
 #contact {
-	min-height: 85vh;
+	// min-height: 85vh;
 	background: linear-gradient(rgb(13, 27, 24), #1919ba00);
 
 	ul {
