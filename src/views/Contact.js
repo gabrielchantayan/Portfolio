@@ -38,7 +38,7 @@ export default function Contact() {
 					['resumeEnglish', 'https://gabrielchantayan.com/Gabriel-Chantayan-Resume-English.pdf'],
 					['email', 'mailto:me@gabrielchantayan.com'],
 					['LinkedIn', 'https://www.linkedin.com/in/gabrielchantayan/'],
-					['GitHub', 'https://github.com/gabrielchantayan'],
+					['GitHub', 'https://github.com/gabriel-chantayan'],
 				]}
 			/>
 		</div>
