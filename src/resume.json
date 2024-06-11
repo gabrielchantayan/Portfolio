@@ -6,9 +6,9 @@
 			"hy": "Սայման/Սյանաբարություն հաշիվ"
 		},
 		"company": {
-			"en": "Universal Epic Universe",
-			"fr": "Universal Epic Universe",
-			"hy": "Universal Epic Universe"
+			"en": "NBCUniversal through HNM Systems",
+			"fr": "NBCUniversal via HNM Systems",
+			"hy": "NBCUniversal եւ HNM Systems"
 		},
 		"location": {
 			"en": "Orlando, FL",
@@ -23,9 +23,9 @@
 		},
 		"bullets": {
 			"en": [
-				"Deploying and administering Red Hat Enterprise Linux and Windows servers",
-				"Managing Active Directory and Kerberos",
-				"Creating scripts for automatic deployment and server management",
+				"Oversaw deployment and administration of Red Hat Enterprise Linux and Windows servers in a first-ever implementation to support a multi-million dollar ride system",
+				"Managed Active Directory and Kerberos entries for dozens of servers",
+				"Creating scripts to automatically deploy and manage dozens of servers",
 				"Virtualization with VSphere, VMWare, Cisco IOx, and Docker",
 				"Creating and managing firewall rules with Palo Alto",
 				"Managing Cisco and Arista switches",
@@ -34,7 +34,7 @@
 				"Troubleshooting network and systems issues"
 			],
 			"fr": [
-				"Déploiement et administration des serveurs Red Hat Enterprise Linux et Windows",
+				"Déploiement et administration des serveurs Red Hat Enterprise Linux et Windows dans la première implémentation pour soutenir un système de plusieur milliard de montagnes russes.",
 				"Gestion de l'Active Directory et de Kerberos",
 				"Création de scripts pour le déploiement automatique et la gestion des serveurs",
 				"Virtualisation avec VSphere, VMWare, Cisco IOx et Docker",
@@ -73,8 +73,8 @@
 
 	{
 		"title": {
-			"en": "System Administrator",
-			"fr": "Administrateur système",
+			"en": "Senior System/Network Administrator",
+			"fr": "Administrateur système/réseau",
 			"hy": "Սայման հաշիվ"
 		},
 		"company": {
@@ -96,33 +96,37 @@
 		"bullets": {
 			"en": [
 				"Handled all IT operations",
-				"Coordinated multiple external parties in technical operations",
+				"Was the primary point of contact for the company's IT needs",
+				"Coordinated multiple external parties in technical operations, including but not limited to: LiveVox, Jinx-IT, Centella Consulting",
+				"Developed programs to automate regular administrative tasks, saving hundreds of hours per year",
+				"In charge of updating, creating, and maintaining the company's multiple sales and rental websites",
+				"Handled social media and graphic design for Instagram, Facebook, and emails, and increased engagement by 800% to 1000%",
+				"Developed internal tools to aide in the management of inventory, streamline call center operations, and improve customer service",
+				"Designed tools to save about 400 hours per year in payroll handling",
 				"Created training documents and handled technical training",
 				"Performed quality assurance testing",
 				"In charge of SMS and phone compliance",
-				"Developed programs to automate certain scheduled tasks",
-				"Developed internal tools",
-				"In charge of updating, creating, and maintaining the company's multiple sales and rental websites",
-				"Oversaw the implementation of a new soft phone system",
-				"Handled social media and graphic design for Instagram, Facebook, and emails",
+				"Oversaw the implementation of a new soft phone system with LiveVox, vastly improving administrative capabilities",
 				"Performed inventory of needs relating to IT",
-				"Handled and streamlined multiple reference documents used daily by agents in the Call Center",
+				"Oversaw and streamlined reference documents used daily by agents in the Call Center",
 				"Ensured all software and training materials were up-to-date"
 			],
 			"fr": [
-				"Gestion des opérations IT",
-				"Coordonnation de plusieurs parties externes dans les opérations techniques",
-				"Gestion des documents d'entrainement et des entraînements techniques",
-				"Traitement de tests de qualité",
-				"Gestion des SMS et de la conformité téléphonique",
-				"Développement de programmes pour automatiser certaines tâches planifiées",
-				"Développement d'outils internes",
-				"Gestion de la mise à jour, de la création et de la maintenance de plusieurs sites web de ventes et de location",
-				"Gestion de l'implémentation d'un nouveau système de téléphonie soft",
-				"Gestion des médias sociaux et du design graphique pour Instagram, Facebook, et les emails",
-				"Gestion des inventaires de besoins relatifs à l'IT",
-				"Gestion des documents de référence et des entraînements relatifs aux agents de l'appelation",
-				"Assurer que tous les logiciels et les documents de formation sont mis à jour"
+				"Gestion de toutes les operations IT",
+				"Est le point de contact principal pour les besoins de l'entreprise",
+				"Coordiner plusieurs parties externes dans les opérations techniques, y compris LiveVox, Jinx-IT, Centella Consulting",
+				"Développée des programmes pour automatiser des taques administratives réguliers, enregistrant des centaines d'heures par an",
+				"Prise en charge de la mise à jour, la création et la maintenance de plusieurs sites web de ventes et locations",
+				"Gestion de la communication numérique et du design graphique pour Instagram, Facebook et les emails, et augmentée l'engagement de 800% à 1000%",
+				"Développée des outils internes pour aider le gestion des inventaires, l'optimisation des opérations du centre d'appel, et améliorer la qualité de service des clients",
+				"Créée des outils pour sauver environ 400 heures par an dans la gestion des notes de frais",
+				"Développée des documents de formation et la gestion des formations techniques",
+				"Realisée des tests de qualité",
+				"Prise en charge de SMS et de la conformité des numériques",
+				"Oversé de l'implémentation d'un nouveau système de telephone soft, améliorant les capacités administratives",
+				"Realisée l'inventaire des besoins IT",
+				"Oversé et optimisée les documents de references utilisés quotidiennement par les agents du centre d'appel",
+				"Assurée que tous les logiciels et les documents de formation sont mis à jour"
 			],
 			"hy": [
 				"Կատարել է ՏՏ բոլոր գործառնությունները",
