@@ -13,7 +13,7 @@ export default function Projects() {
 			{/* Heading element for the Projects section */}
 			<h1 className='title'>{t('projects')}</h1>
 
-			{/* Map over each project and render a Project component */}
+			{/* Map over each project, check if the project is visible in the projects.json file and render a Project component */}
 			{projects.map((project, index) => (
 				<Project
 					key={index}

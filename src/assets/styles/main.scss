@@ -1,51 +1,12 @@
 $phone-breakpoint: 650px;
 
-:root {
-	font-family: 'Inter', sans-serif;
-}
+@import './css_fragments/_font.scss';
 
-@supports (font-variation-settings: normal) {
-	:root {
-		font-family: 'InterVariable', sans-serif;
-		font-optical-sizing: auto;
-	}
-}
+$titleFontSize: 3rem;
+$headerFontSize: 2rem;
+$mobileHeaderFontSize: 2rem;
 
-@font-face {
-	font-family: InterVariable;
-	font-style: normal;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('fonts/InterVariable.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: InterVariable;
-	font-style: italic;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('fonts/InterVariable-Italic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: GeistMono;
-	font-style: normal;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('fonts/GeistMonoVF.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: Hack;
-	font-style: normal;
-	src: url('fonts/Hack-Regular.ttf') format('truetype');
-}
-
-// @font-face {
-//     font-family: Hack;
-//     font-style: bold;
-//     src: url('fonts/Hack-Bold.ttf') format('truetype');
-// }
+$textFontSize: 1rem;
 
 $monoFont: 'GeistMono', 'Hack', monospace;
 $sansFont: 'InterVariable', sans-serif;
@@ -76,24 +37,24 @@ $sansFont: 'InterVariable', sans-serif;
 		color: transparent;
 		background-clip: text;
 		-webkit-background-clip: text;
-		font-size: 3rem;
+		font-size: $headerFontSize;
 		font-weight: 700;
 		font-family: $sansFont;
 		margin-bottom: 0;
 		word-wrap: break-word;
 
 		@media (max-width: $phone-breakpoint) {
-			font-size: 2rem;
+			font-size: $mobileHeaderFontSize;
 			max-width: 80vw;
 		}
 
 		&.title {
-			font-size: 5em;
+			font-size: $titleFontSize;
 			font-weight: 900;
-			margin: 0.5em 0em 0em 0.7em;
+			margin: 0.5em 0em 0em 1.3em;
 			font-family: $monoFont;
 			@media (max-width: $phone-breakpoint) {
-				font-size: 3em;
+				font-size: $headerFontSize;
 			}
 		}
 	}
@@ -204,7 +165,7 @@ body {
 	p,
 	li {
 		font-family: $monoFont;
-		font-size: 1.1rem;
+		font-size: $textFontSize;
 		max-width: 70vw;
 
 		@media (max-width: $phone-breakpoint) {
@@ -251,7 +212,7 @@ body {
 	p {
 		color: #ddd;
 		font-family: $monoFont;
-		font-size: 1.25rem;
+		font-size: $textFontSize;
 		line-height: 110%;
 		margin-top: 0;
 		margin-left: 0.2em;
@@ -266,7 +227,6 @@ body {
 		border: #e078ef solid 1px;
 		background: linear-gradient(15deg, rgba(46, 28, 46, 0.652), rgba(247, 0, 255, 0.284));
 		color: #e078ef;
-		margin-right: 0.4em;
 	}
 }
 
@@ -317,8 +277,8 @@ body {
 	li {
 		color: #ddd;
 		font-family: $monoFont;
-		font-size: 1.25rem;
-		line-height: 110%;
+		font-size: $textFontSize;
+		line-height: 100%;
 
 		max-width: 65vw;
 
@@ -341,7 +301,6 @@ body {
 		border: #e078ef solid 1px;
 		background: linear-gradient(15deg, rgba(46, 28, 46, 0.652), rgba(247, 0, 255, 0.284));
 		color: #e078ef;
-		margin-right: 0.4em;
 	}
 
 	.imgFloat {
@@ -373,6 +332,12 @@ body {
 		}
 	}
 }
+
+.skill {
+
+		margin-right: 0.4em;
+}
+
 
 .job,
 .project {
@@ -439,9 +404,10 @@ h1 {
 		font-weight: 700;
 		font-family: $monoFont;
 		border-radius: 1em;
+		font-size: 0.9rem;
 
 		@media (max-width: $phone-breakpoint) {
-			font-size: 0.8rem;
+			font-size: 0.7rem;
 		}
 	}
 }

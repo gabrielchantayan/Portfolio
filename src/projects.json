@@ -31,6 +31,22 @@
 
 	{
 		"name": {
+			"en": "Kollektor",
+			"hy": "Կոլեկտոր"
+		},
+		"description": {
+			"en": "Are you having trouble organizing your collections? Do you want greater insights into the objects you've been picking up over the years? Kollektor is the perfect solution for you!\n\nKollektor is an open-source, web-based application that allows you to organize your collections in a way that makes it easy for you to find, edit, and share your collections with anyone, anywhere.\n\nI created Kollektor to manage my collection of coins, stamps, and banknotes that I have been growing since I was six years old.",
+			"fr": "Avez-vous des difficultés à organiser vos collections? Voulez-vous des insights plus approfondis sur les objets que vous avez accumulés au fil des ans? Kollektor est la solution parfaite pour vous!\n\nKollektor est une application web open-source qui vous permet de structurer vos collections de manière à ce qu'il soit facile pour vous de les trouver, de les modifier et de les partager avec qui que ce soit, n'importe où.\n\nJ'ai créé Kollektor pour gérer ma collection de pièces, timbres et billets que j'ai commencé à accumuler à l'âge de six ans.",
+			"hy": "Դժվա՞ր եք ունենում ձեր հավաքածուները կազմակերպելու հարցում: Ցանկանու՞մ եք ավելի լավ պատկերացում կազմել այն առարկաների մասին, որոնք դուք վերցրել եք տարիների ընթացքում: Կոլեկտորը կատարյալ լուծում է ձեզ համար:\n\nԿոլեկտորը բաց կոդով, վեբ վրա հիմնված ծրագիր է, որը թույլ է տալիս կազմակերպել ձեր հավաքածուները այնպես, որ ձեզ համար հեշտ լինի գտնել, խմբագրել և կիսել ձեր հավաքածուները որևէ մեկի հետ, ցանկացած վայրում։\n\nԵս ստեղծեցի Կոլեկտորը՝ կառավարելու մետաղադրամների, նամականիշերի և թղթադրամների իմ հավաքածուն, որը ես աճեցնում եմ վեց տարեկանից։"
+		},
+		"technologies": ["react", "node", "restAPI", "mongodb", "docker"],
+		"links": [["viewOnGithub", "https://github.com/gabrielchantayan/kollektor"]],
+		"dates": ["2024-07", "current"]
+	},
+
+	{
+		"visible" : false,
+		"name": {
 			"en": "SpotArchive",
 			"hy": "ՍպոտԱրխիվ"
 		},

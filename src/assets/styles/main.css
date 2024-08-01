@@ -65,7 +65,7 @@
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   font-family: "InterVariable", sans-serif;
   margin-bottom: 0;
@@ -82,16 +82,16 @@
 #experience h1.title,
 #projects h1.title,
 #contact h1.title {
-  font-size: 5em;
+  font-size: 3rem;
   font-weight: 900;
-  margin: 0.5em 0em 0em 0.7em;
+  margin: 0.5em 0em 0em 1.3em;
   font-family: "GeistMono", "Hack", monospace;
 }
 @media (max-width: 650px) {
   #experience h1.title,
   #projects h1.title,
   #contact h1.title {
-    font-size: 3em;
+    font-size: 2rem;
   }
 }
 
@@ -195,7 +195,7 @@ body {
 #experience p,
 #experience li {
   font-family: "GeistMono", "Hack", monospace;
-  font-size: 1.1rem;
+  font-size: 1rem;
   max-width: 70vw;
 }
 @media (max-width: 650px) {
@@ -238,7 +238,7 @@ body {
 #projects p {
   color: #ddd;
   font-family: "GeistMono", "Hack", monospace;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 110%;
   margin-top: 0;
   margin-left: 0.2em;
@@ -289,8 +289,8 @@ body {
 #contact li {
   color: #ddd;
   font-family: "GeistMono", "Hack", monospace;
-  font-size: 1.25rem;
-  line-height: 110%;
+  font-size: 1rem;
+  line-height: 100%;
   max-width: 65vw;
 }
 @media (max-width: 650px) {
